@@ -1,0 +1,55 @@
+Component/s|Component/s|Issue Type|Summary|Issue key|Issue id|Status|Custom field (Epic Link)|Custom field (Epic Name)
+Frontend|Story|Create a Courthouse Page|DMP-635|724403|Ready for Test|DMP-603|
+Frontend|Story|Courthouse Search Page|DMP-725|730486|Done|DMP-603|
+Frontend|Story|View Courthouse (Details Tab)|DMP-1192|745283|Blocked|DMP-603|
+Frontend|Story|Creating a courthouse - Check details|DMP-2186|778266|Blocked|DMP-603|
+Frontend|Story|Edit a courthouse|DMP-2252|781047|In Progress|DMP-603|
+Frontend|Story|Courthouse search results page|DMP-2269|781984|Blocked|DMP-603|
+Backend |Task|Implement POST /admin/courthouses|DMP-2279|782371|In Progress|DMP-603|
+Backend |Task|Implement GET /admin/courthouses/{courthouse_id}|DMP-2282|782374|Done|DMP-603|
+Backend |Task|Update GET /admin/courthouses/{id} with has_data flag|DMP-2338|783958|Done|DMP-603|
+Backend |Task|Implement PATCH /admin/courthouses/{courthouse_id}|DMP-2339|783961|Review|DMP-603|
+Backend |Task|(Dev only) Add Regions reference data to database build scripts|DMP-2367|784530|Done|DMP-603|
+Frontend|Story|Searching for a User in the Admin Portal Results|DMP-1834|766654|Done|DMP-629|
+Frontend|Task|Accessibility - Two links with the same name on the user groups screen on the admin portal (Two links are named Groups)|DMP-2550|790816|Done|DMP-629|
+Frontend|Story|Add All Annotations to Case File screen|DMP-1508|755574|Done|DMP-215|
+Frontend|Story|Add Annotations to Hearing details screen|DMP-1552|757269|Done|DMP-215|
+Frontend|Story|Annotation template|DMP-1614|759575|Done|DMP-215|
+Frontend|Story|Add annotation screen|DMP-1616|759579|Done|DMP-215|
+Frontend|Story|Add annotation confirmation screen|DMP-1623|759957|Done|DMP-215|
+Backend |Task|Download annotation document|DMP-1890|768867|Done|DMP-215|
+Frontend|Story|Download annotations from case screen|DMP-2246|780855|Done|DMP-215|
+Backend |Task|Annotation Upload - Upload the document to Unstructured Data Store|DMP-2324|783542|Done|DMP-215|
+Frontend|Story|Delete annotation from case screen|DMP-2456|787465|Done|DMP-215|
+Frontend|Story|Preview audio is unavailable if file is only in long term storage ARM|DMP-2100|775555|Done|DMP-12|
+Backend |Spike|Investigate using Redis to store audio for preview|DMP-2560|791443|Sign off|DMP-12|
+Backend |Task|Create audit entry for Import Annotation activity|DMP-1072|742629|Done|DMP-21|
+Backend |Task|RCJ Appeals User permissions|DMP-2136|776550|Done|DMP-441|
+Backend |Bug|Created/updated columns not always populated|DMP-2026|773064|Done|DMP-8|
+Backend |Task|(Dev only) Remove PATCH /cases/{case_id} endpoint|DMP-2337|783952|Done|DMP-8|
+Backend |Bug|Case Data & API Service: Case last_modified_ts / by not updated via Daily List updates|DMP-2477|788421|Done|DMP-8|
+Backend |Task|Strip out line breaks from Daily List XML|DMP-2527|790101|Done|DMP-521|
+Frontend|Task|Use tudor crown on DARTS portal|DMP-2398|786047|Done|DMP-14|
+Frontend|Bug|Audio requests endpoint is being called multiple times|DMP-2472|788328|Done|DMP-14|
+Backend |Task|Inbound to unstructured improvements|DMP-1919|769710|Awaiting Fix|DMP-17|
+Backend |Bug|"AC2 of DMP-1919: For Media File, copying file to Unstructured Blob storage is not failing with ors_id = 4 (Failure - File not found) when file is not attached to the request. "|DMP-2528|789985|In Progress|DMP-17|
+Backend |Task|Config to turn on/off DAR Notify|DMP-1601|759177|Ready for Test|DMP-7|
+Backend |Task|Integration tests for Dar PC notify|DMP-1608|759442|In Progress|DMP-7|
+Backend |Bug|Map 201 responses to 200 in Gateway|DMP-2520|789840|Done|DMP-7|
+Backend |Task|Run CPP Documentum client library|DMP-2523|789844|In Progress|DMP-7|
+Backend |Task|Api - Change DAR PC notification logic to read from device_register table|DMP-706|727654|QA Testing|DMP-487|
+Backend |Story|Write to log processing status and timestamp of Xhibit/CPP daily job list|DMP-1952|770708|Done|DMP-20|
+Backend |Story|Write to log when audio is uploaded|DMP-1986|770922|Done|DMP-20|
+Backend |Story|Write to log when a DAR PC calls getCases|DMP-2003|771261|Done|DMP-20|
+Backend |Story|Write to log when we notify a DAR PC|DMP-2006|771521|Done|DMP-20|
+Backend |Story|Write to log when defendant name over 600 characters|DMP-2152|776862|Done|DMP-20|
+Backend |Task|Review logging for notifications|DMP-617|723664|Review|DMP-22|
+Frontend|Task|Use retention endpoint to validate and get proposed retention date|DMP-2161|777334|QA Testing|DMP-16|
+Backend |Task|(Dev only) Application changes for running automated jobs in a separate pod|DMP-2046|773782|Done|DMP-33|
+Backend |Task|(Dev only) Refactor TranscriptionRequestDetailsValidator to reduce complexity|DMP-2083|774847|Sign off|DMP-33|
+Backend |Task|(Dev Only) Check the setting of created/updated database columns across all entities|DMP-2249|780915|Review|DMP-33|
+Backend |Task|(Dev Only) Darts-Gateway - Spring Boot 3.2 upgrade tech debt|DMP-2397|786035|Done|DMP-33|
+Frontend|Story|Handle partial failure when hiding transcriptions|DMP-1694|763446|Ready for Test|DMP-13|
+Frontend|Task|Accessibility (WAVE) - Generic issue - Tables have unpopulated caption|DMP-1842|766927|Done|DMP-13|
+Backend |Task|"(Dev only) Review usages of transcriptionEntity.getCourtCase();"|DMP-2157|777229|Done|DMP-13|
+Backend |Task|(Dev only) modify logic for handling transcription relationship with case|DMP-2293|782452|Done|DMP-13|
