@@ -3,9 +3,9 @@ Frontend|Story|View Courthouse (Details Tab)|DMP-1192|745283|Done|DMP-603|
 Frontend|Story|Creating a courthouse - Check details|DMP-2186|778266|Done|DMP-603|
 Frontend|Story|Edit a courthouse|DMP-2252|781047|Done|DMP-603|
 Frontend|Story|Editing a courthouse - Check details|DMP-2263|781955|Sign off|DMP-603|
-Frontend|Story|Courthouse search results page|DMP-2269|781984|Test Review|DMP-603|
+Frontend|Story|Courthouse search results page|DMP-2269|781984|Sign off|DMP-603|
 Backend |Task|Update GET /admin/security-groups to include user_ids field|DMP-2660|795128|Sign off|DMP-603|
-Backend |Task|Update GET /admin/users to include user_ids filter param|DMP-2661|795129|QA Testing|DMP-603|
+Backend |Task|Update GET /admin/users to include user_ids filter param|DMP-2661|795129|Ready for Test|DMP-603|
 Frontend|Story|Retention Policies primary page|DMP-2466|787869|Done|DMP-2097|
 Backend |Task|Update POST /admin/security-groups to support TRANSLATION_QA|DMP-2369|784998|QA Testing|DMP-629|
 Backend |Task|Implement PATCH /admin/security-groups/{security_group_id}|DMP-2537|790269|Done|DMP-629|
@@ -29,12 +29,12 @@ Frontend|Task|Refresh UserState on each route change|DMP-2638|793993|Ready for T
 Frontend|Task|Check for global or courthouse Judge role before fetching annotations|DMP-2639|793995|In Progress|DMP-441|
 Backend |Bug|Swagger: get UserState endpoint documentation to be updated|DMP-2750|799471|In Progress|DMP-441|
 Backend |Task|Change the RetrieveCoreObjectService to take in user account for hearings and cases|DMP-2322|783398|Done|DMP-8|
-Backend |Bug|Validations are missing for the query params for the POST /dailylists endpoint. |DMP-2713|798510|In Progress|DMP-521|
 Backend |Bug|created_by is not getting populated after DailyList is created. |DMP-2715|798535|Done|DMP-8|
 Backend |Bug|last_modified_ts is not getting updated for court_case and hearing tables after Daily List Updates|DMP-2717|798578|Done|DMP-8|
-Backend |Task|Send and store messageId|DMP-2609|793140|QA Testing|DMP-521|
+Backend |Task|Send and store messageId|DMP-2609|793140|Ready for Test|DMP-521|
 Backend |Bug|Multiple Daily Lists incorrectly getting set to IGNORED|DMP-2631|793954|QA Testing|DMP-521|
 Backend |Task|(Dev Only) Move DailyList housekeeping task to automated tasks database table|DMP-2670|795855|Sign off|DMP-521|
+Backend |Bug|Validations are missing for the query params for the POST /dailylists endpoint. |DMP-2713|798510|In Progress|DMP-521|
 Frontend|Task|Implement cookies page|DMP-2534|790240|Review|DMP-14|
 Frontend|Bug|"Case search doesn't display ""loading"" on subsequent searches"|DMP-2646|794504|Done|DMP-14|
 Backend |Task|Inbound to unstructured improvements|DMP-1919|769710|QA Testing|DMP-17|
@@ -43,7 +43,6 @@ Backend |Task|Gateway - Handle a getCases Error|DMP-1607|759426|In Progress|DMP-
 Backend |Task|Only return authorised courthouses in GET /courthouses endpoint|DMP-2374|785146|Done|DMP-487|
 Backend |Story|Write to log automated task statuses|DMP-2574|791834|In Progress|DMP-20|
 Backend |Task|"(Dev Only) Add ""enabled"" config for notification scheduled task "|DMP-2671|795856|Sign off|DMP-22|
-Backend |Task|Darts Portal - API - POST Transcription - Create Transcription with no start_ts and end_ts times doesn't allow you to upload file|DMP-2710|797983|Done|DMP-23|
 Backend |Story|Service to close cases over 6 years old|DMP-2204|779318|QA Testing|DMP-16|
 Backend |Task|"(Dev only) V63, 64, 65 and 66 changes to data model"|DMP-2662|795328|Done|DMP-16|
 Backend |Task|XHIBIT Test Harness|DMP-2590|792918|Done|DMP-33|
