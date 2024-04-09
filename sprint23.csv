@@ -22,7 +22,7 @@ Frontend|Story|Download annotations from case screen|DMP-2246|780855|Done|DMP-21
 Backend |Task|Annotation Upload - Upload the document to Unstructured Data Store|DMP-2324|783542|Done|DMP-215|
 Frontend|Story|Delete annotation from case screen|DMP-2456|787465|Done|DMP-215|
 Frontend|Story|Preview audio is unavailable if file is only in long term storage ARM|DMP-2100|775555|Done|DMP-12|
-Backend |Spike|Investigate using Redis to store audio for preview|DMP-2560|791443|Sign off|DMP-12|
+Backend |Spike|Investigate using Redis to store audio for preview|DMP-2560|791443|Done|DMP-12|
 Backend |Task|Create audit entry for Import Annotation activity|DMP-1072|742629|Done|DMP-21|
 Backend |Task|RCJ Appeals User permissions|DMP-2136|776550|Done|DMP-441|
 Backend |Bug|Created/updated columns not always populated|DMP-2026|773064|Done|DMP-8|
@@ -38,6 +38,7 @@ Backend |Task|Integration tests for Dar PC notify|DMP-1608|759442|In Progress|DM
 Backend |Bug|Map 201 responses to 200 in Gateway|DMP-2520|789840|Done|DMP-7|
 Backend |Task|Run CPP Documentum client library|DMP-2523|789844|In Progress|DMP-7|
 Backend |Task|Api - Change DAR PC notification logic to read from device_register table|DMP-706|727654|QA Testing|DMP-487|
+Backend |Task|Remove DELETE courthouse endpoint|DMP-1244|746778|In Progress|DMP-487|
 Backend |Story|Write to log processing status and timestamp of Xhibit/CPP daily job list|DMP-1952|770708|Done|DMP-20|
 Backend |Story|Write to log when audio is uploaded|DMP-1986|770922|Done|DMP-20|
 Backend |Story|Write to log when a DAR PC calls getCases|DMP-2003|771261|Done|DMP-20|
@@ -46,7 +47,7 @@ Backend |Story|Write to log when defendant name over 600 characters|DMP-2152|776
 Backend |Task|Review logging for notifications|DMP-617|723664|Review|DMP-22|
 Frontend|Task|Use retention endpoint to validate and get proposed retention date|DMP-2161|777334|QA Testing|DMP-16|
 Backend |Task|(Dev only) Application changes for running automated jobs in a separate pod|DMP-2046|773782|Done|DMP-33|
-Backend |Task|(Dev only) Refactor TranscriptionRequestDetailsValidator to reduce complexity|DMP-2083|774847|Sign off|DMP-33|
+Backend |Task|(Dev only) Refactor TranscriptionRequestDetailsValidator to reduce complexity|DMP-2083|774847|Done|DMP-33|
 Backend |Task|(Dev Only) Check the setting of created/updated database columns across all entities|DMP-2249|780915|Review|DMP-33|
 Backend |Task|(Dev Only) Darts-Gateway - Spring Boot 3.2 upgrade tech debt|DMP-2397|786035|Done|DMP-33|
 Frontend|Story|Handle partial failure when hiding transcriptions|DMP-1694|763446|Ready for Test|DMP-13|
