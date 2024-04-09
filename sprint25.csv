@@ -1,0 +1,52 @@
+Component/s|Issue Type|Summary|Issue key|Issue id|Status|Custom field (Epic Link)|Custom field (Epic Name)
+Frontend|Story|View Courthouse (Details Tab)|DMP-1192|745283|Done|DMP-603|
+Frontend|Story|Creating a courthouse - Check details|DMP-2186|778266|Done|DMP-603|
+Frontend|Story|Edit a courthouse|DMP-2252|781047|Done|DMP-603|
+Frontend|Story|Editing a courthouse - Check details|DMP-2263|781955|Sign off|DMP-603|
+Frontend|Story|Courthouse search results page|DMP-2269|781984|Test Review|DMP-603|
+Backend |Task|Update GET /admin/security-groups to include user_ids field|DMP-2660|795128|Sign off|DMP-603|
+Backend |Task|Update GET /admin/users to include user_ids filter param|DMP-2661|795129|QA Testing|DMP-603|
+Frontend|Story|Retention Policies primary page|DMP-2466|787869|Done|DMP-2097|
+Backend |Task|Update POST /admin/security-groups to support TRANSLATION_QA|DMP-2369|784998|QA Testing|DMP-629|
+Backend |Task|Implement PATCH /admin/security-groups/{security_group_id}|DMP-2537|790269|Done|DMP-629|
+Backend |Bug|Remove users from security group endpoint not working|DMP-2701|797928|Done|DMP-629|
+Frontend|Task|Update admin portal navigation|DMP-2714|798359|In Progress|DMP-629|
+Frontend|Task|Accessibility - Two links with the same name on the user groups screen on the admin portal (Two links are named Users)|DMP-2727|798849|Done|DMP-629|
+Frontend|Task|Viewing groups - Adding a user - Missing form label on comments box on annotation upload screen|DMP-2739|799312|Done|DMP-629|
+Frontend|Bug|No permissions error when viewing case |DMP-2545|790500|Blocked|DMP-215|
+Backend |Task|Setup VIQ client installer on staging to mimic Mid-tier audio requests to DARTS|DMP-1752|764488|In Progress|DMP-9|
+Backend |Bug|AddAudio can create an empty file|DMP-2617|793753|Done|DMP-9|
+Backend |Task|Audio preview using Redis cache|DMP-2557|791416|Done|DMP-12|
+Frontend|Task|Implement polling for audio preview|DMP-2558|791417|Sign off|DMP-12|
+Frontend|Task|"Audio preview text should use ""govuk-hint"" class"|DMP-2561|791458|Done|DMP-12|
+Frontend|Task|Super user and Super Admin can request download audio|DMP-2562|791572|QA Testing|DMP-12|
+Backend |Task|(Dev only) Disable notifications scheduled task from running when in ATS mode|DMP-2664|795139|Sign off|DMP-12|
+Backend |Task|Remove audit search endpoint|DMP-2591|792890|Done|DMP-21|
+Backend |Task|Add global access or courthouse context to roles in UserState|DMP-2635|793990|In Progress|DMP-441|
+Backend |Task|Add API endpoint to get UserState|DMP-2636|793991|Sign off|DMP-441|
+Backend |Task|Add courthouse_id to API endpoint responses|DMP-2637|793992|Done|DMP-441|
+Frontend|Task|Refresh UserState on each route change|DMP-2638|793993|Ready for Test|DMP-441|
+Frontend|Task|Check for global or courthouse Judge role before fetching annotations|DMP-2639|793995|In Progress|DMP-441|
+Backend |Bug|Swagger: get UserState endpoint documentation to be updated|DMP-2750|799471|In Progress|DMP-441|
+Backend |Task|Change the RetrieveCoreObjectService to take in user account for hearings and cases|DMP-2322|783398|Done|DMP-8|
+Backend |Bug|Validations are missing for the query params for the POST /dailylists endpoint. |DMP-2713|798510|In Progress|DMP-521|
+Backend |Bug|created_by is not getting populated after DailyList is created. |DMP-2715|798535|Done|DMP-8|
+Backend |Bug|last_modified_ts is not getting updated for court_case and hearing tables after Daily List Updates|DMP-2717|798578|Done|DMP-8|
+Backend |Task|Send and store messageId|DMP-2609|793140|QA Testing|DMP-521|
+Backend |Bug|Multiple Daily Lists incorrectly getting set to IGNORED|DMP-2631|793954|QA Testing|DMP-521|
+Backend |Task|(Dev Only) Move DailyList housekeeping task to automated tasks database table|DMP-2670|795855|Sign off|DMP-521|
+Frontend|Task|Implement cookies page|DMP-2534|790240|Review|DMP-14|
+Frontend|Bug|"Case search doesn't display ""loading"" on subsequent searches"|DMP-2646|794504|Done|DMP-14|
+Backend |Task|Inbound to unstructured improvements|DMP-1919|769710|QA Testing|DMP-17|
+Backend |Bug|"AC2 of DMP-1919: For Media File, copying file to Unstructured Blob storage is not failing with ors_id = 4 (Failure - File not found) when file is not attached to the request. "|DMP-2528|789985|Done|DMP-17|
+Backend |Task|Gateway - Handle a getCases Error|DMP-1607|759426|In Progress|DMP-7|
+Backend |Task|Only return authorised courthouses in GET /courthouses endpoint|DMP-2374|785146|Done|DMP-487|
+Backend |Story|Write to log automated task statuses|DMP-2574|791834|In Progress|DMP-20|
+Backend |Task|"(Dev Only) Add ""enabled"" config for notification scheduled task "|DMP-2671|795856|Sign off|DMP-22|
+Backend |Task|Darts Portal - API - POST Transcription - Create Transcription with no start_ts and end_ts times doesn't allow you to upload file|DMP-2710|797983|Done|DMP-23|
+Backend |Story|Service to close cases over 6 years old|DMP-2204|779318|QA Testing|DMP-16|
+Backend |Task|"(Dev only) V63, 64, 65 and 66 changes to data model"|DMP-2662|795328|Done|DMP-16|
+Backend |Task|XHIBIT Test Harness|DMP-2590|792918|Done|DMP-33|
+Backend |Bug|Darts-gateway doesn't handle a XHIBIT register request|DMP-2644|794164|Done|DMP-10|
+Backend |Task|(Dev only) Gateway - Improve performance of token generation|DMP-2712|797995|Review|DMP-10|
+Backend |Bug|Duplicate Transcript Request Displayed for Transcriber|DMP-2469|788291|Done|DMP-13|
