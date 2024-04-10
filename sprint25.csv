@@ -2,8 +2,8 @@ Component/s|Issue Type|Summary|Issue key|Issue id|Status|Custom field (Epic Link
 Frontend|Story|View Courthouse (Details Tab)|DMP-1192|745283|Done|DMP-603|
 Frontend|Story|Creating a courthouse - Check details|DMP-2186|778266|Done|DMP-603|
 Frontend|Story|Edit a courthouse|DMP-2252|781047|Done|DMP-603|
-Frontend|Story|Editing a courthouse - Check details|DMP-2263|781955|Sign off|DMP-603|
-Frontend|Story|Courthouse search results page|DMP-2269|781984|Sign off|DMP-603|
+Frontend|Story|Editing a courthouse - Check details|DMP-2263|781955|Done|DMP-603|
+Frontend|Story|Courthouse search results page|DMP-2269|781984|Done|DMP-603|
 Backend |Task|Update GET /admin/security-groups to include user_ids field|DMP-2660|795128|Sign off|DMP-603|
 Backend |Task|Update GET /admin/users to include user_ids filter param|DMP-2661|795129|Ready for Test|DMP-603|
 Frontend|Story|Retention Policies primary page|DMP-2466|787869|Done|DMP-2097|
