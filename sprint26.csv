@@ -1,0 +1,49 @@
+Component/s|Issue Type|Summary|Issue key|Issue id|Status|Custom field (Epic Link)|Custom field (Epic Name)
+Backend |Task|Update GET /admin/users to include user_ids filter param|DMP-2661|795129|Done|DMP-603|
+Backend |Bug|admin/users?user_ids - single user with no email returns 200 status and no information|DMP-2836|801482|Done|DMP-603|
+Backend |Task|Update POST /admin/security-groups to support TRANSLATION_QA|DMP-2369|784998|Done|DMP-629|
+Frontend|Task|Accessibility (Screen reader) - DMP-2222 - Admin Users Groups - Number of groups not read out|DMP-2540|790048|Ready for Test|DMP-629|
+Frontend|Task|Update admin portal navigation|DMP-2714|798359|Done|DMP-629|
+Backend |Task|Implement POST /admin/transcriptions/search|DMP-2735|799264|In Progress|DMP-608|
+Backend |Task|Implement PATCH /admin/transcriptions/{id}|DMP-2736|799267|Done|DMP-608|
+Backend |Task|Implement GET /admin/transcription-status|DMP-2738|799270|Done|DMP-608|
+Frontend|Bug|No permissions error when viewing case |DMP-2545|790500|Done|DMP-215|
+Backend |Task|Setup VIQ client installer on staging to mimic Mid-tier audio requests to DARTS|DMP-1752|764488|In Progress|DMP-9|
+Backend |Task|Ensure darts api uses vault for audio size threshold |DMP-1868|767546|Review|DMP-9|
+Frontend|Task|Super user and Super Admin can request download audio|DMP-2562|791572|Done|DMP-12|
+Backend |Task|(Dev only) Disable notifications scheduled task from running when in ATS mode|DMP-2664|795139|Done|DMP-12|
+Backend |Task|Add global access or courthouse context to roles in UserState|DMP-2635|793990|Done|DMP-441|
+Frontend|Task|Refresh UserState on each route change|DMP-2638|793993|Done|DMP-441|
+Frontend|Task|Check for global or courthouse Judge role before fetching annotations|DMP-2639|793995|Blocked|DMP-441|
+Frontend|Task|Only allow audio download request if user is courthouse Transcriber|DMP-2640|793996|Sign off|DMP-441|
+Backend |Bug|Swagger: get UserState endpoint documentation to be updated|DMP-2750|799471|QA Testing|DMP-441|
+Frontend|Bug|Search screen incorrectly states over 500 results |DMP-2769|800250|Ready for Test|DMP-8|
+Backend |Task|Add success/error code to getCases request|DMP-2802|800647|Test Review|DMP-8|
+Backend |Story|Set scheduled start time of cases with no scheduled time|DMP-2822|800698|Ready for Test|DMP-8|
+Backend |Task|Change addCase to only create a Case and not a Hearing|DMP-2869|802102|Ready for Test|DMP-8|
+Backend |Test|DMP-2802: Add success/error code to getCases request|DMP-2883|802176|Done|DMP-8|
+Frontend|Bug|Advance Search - No Search Results Displayed for Date Range or Specific Date Searches Due to Unsent Server Requests|DMP-2905|803065|Ready for Test|DMP-8|
+Backend |Task|Send and store messageId|DMP-2609|793140|Done|DMP-521|
+Backend |Bug|Multiple Daily Lists incorrectly getting set to IGNORED|DMP-2631|793954|Done|DMP-521|
+Backend |Task|(Dev Only) Move DailyList housekeeping task to automated tasks database table|DMP-2670|795855|Done|DMP-521|
+Backend |Bug|Validations are missing for the query params for the POST /dailylists endpoint. |DMP-2713|798510|Done|DMP-521|
+Frontend|Task|Implement cookies page|DMP-2534|790240|Done|DMP-14|
+Frontend|Task|Implement cookie banner|DMP-2620|793661|Done|DMP-14|
+Frontend|Task|"Site-wide Accessibility - ""HMCTS DARTS"" banner at the of the page are two separate links next to each other leading to the same location. "|DMP-2720|798499|Ready for Test|DMP-14|
+Frontend|Task|Site-wide Accessibility - A web page must have a title that describes its topic or purpose|DMP-2721|798800|Sign off|DMP-14|
+Frontend|Task|Site-wide Accessibility -  Multiple H1 Headings on a page.|DMP-2722|798801|Ready for Test|DMP-14|
+Frontend|Task|All radio buttons on the cookies page have missing/orphaned form labels.|DMP-2864|801883|Ready for Test|DMP-14|
+Frontend|Task|Cookies page has two main landmarks.|DMP-2866|802004|Review|DMP-14|
+Backend |Task|Inbound to unstructured improvements|DMP-1919|769710|Awaiting Fix|DMP-17|
+Backend |Task|Gateway - Handle a getCases Error|DMP-1607|759426|In Progress|DMP-7|
+Backend |Task|gateway - remove security header from Dar Pc Notification|DMP-2902|802913|Ready for Test|DMP-7|
+Backend |Task|(Dev only) Log DAR notify SOAP request|DMP-2938|804174|Sign off|DMP-7|
+Backend |Task|(Dev only) Escape fields in XMLEventDocument for DAR Notify request message |DMP-2948|804384|In Progress|DMP-7|
+Backend |Story|Write to log automated task statuses|DMP-2574|791834|Ready for Test|DMP-20|
+Backend |Story|Service to close cases over 6 years old|DMP-2204|779318|Done|DMP-16|
+Backend |Task|Store retention details for sentencing events in case_management_retention table|DMP-2748|799342|In Progress|DMP-16|
+Backend |Task|Populate new columns introduced in v65 of data model|DMP-2696|796943|Review|DMP-33|
+Backend |Task|(Dev Only) Upgrade Spring Boot to 3.2.4 |DMP-2754|799395|Review|DMP-33|
+Backend |Spike|Pod recycle - Stops automated jobs|DMP-2765|800217|In Progress|DMP-33|
+Backend |Task|v67 of data model|DMP-2831|801354|Blocked|DMP-33|
+Backend |Task|(Dev only) Gateway - Improve performance of token generation|DMP-2712|797995|Done|DMP-10|
