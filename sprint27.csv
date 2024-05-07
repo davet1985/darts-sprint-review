@@ -1,0 +1,49 @@
+Component/s|Component/s|Issue Type|Summary|Issue key|Issue id|Status|Custom field (Epic Link)|Custom field (Epic Name)
+Frontend|Task|Update navigation bar on admin portal|DMP-2987|806050|Review|DMP-606|
+Frontend|Task|Accessibility (Screen reader) - DMP-2222 - Admin Users Groups - Number of groups not read out|DMP-2540|790048|Done|DMP-629|
+Frontend|Task|"Groups primary page - On the dropdown filter, the option to remove the previously chosen role from dropdown does not have a name."|DMP-2604|793256|Done|DMP-629|
+Frontend|Task|Accessibility (WAVE) - Viewing groups page (Add user) - Missing form label|DMP-2698|796958|Test Review|DMP-629|
+Frontend|Task|Remove Audio files option from navigation tabs under Users|DMP-2992|806352|Review|DMP-629|
+Backend |Task|Implement POST /admin/transcriptions/search|DMP-2735|799264|Test Review|DMP-608|
+Backend |Bug|(Dev only) DARTS Admin Portal - Transcription request workflow bug |DMP-3015|806971|Done|DMP-608|
+Frontend|Story|Automated tasks - primary page|DMP-2668|795720|Ready for Test|DMP-15|
+Frontend|Story|Automated tasks - details page|DMP-2669|795721|Blocked|DMP-15|
+Backend |Task|Implement GET /admin/automated-tasks|DMP-2810|800668|Done|DMP-15|
+Backend |Task|Implement POST /admin/automated-tasks/<id>/run|DMP-2811|800669|Ready for Test|DMP-15|
+Backend |Task|Implement GET /admin/automated-tasks/<id>|DMP-2812|800670|Test Review|DMP-15|
+Backend |Task|Implement PATCH /admin/automated-tasks/<id>|DMP-2813|800671|Review|DMP-15|
+Backend |Task|Setup VIQ client installer on staging to mimic Mid-tier audio requests to DARTS|DMP-1752|764488|In Progress|DMP-9|
+Backend |Task|Ensure darts api uses vault for audio size threshold |DMP-1868|767546|Test Review|DMP-9|
+Backend |Story|Auditing for courthouse admin activities|DMP-2767|800243|In Progress|DMP-21|
+Frontend|Task|Site-wide Accessibility - Four radio buttons on the login screen|DMP-2848|801545|Test Review|DMP-11|
+Frontend|Task|Check for global or courthouse Judge role before fetching annotations|DMP-2639|793995|Done|DMP-441|
+Backend |Bug|Swagger: get UserState endpoint documentation to be updated|DMP-2750|799471|Done|DMP-441|
+Backend |Task|Add success/error code to getCases request|DMP-2802|800647|Done|DMP-8|
+Backend |Story|Set scheduled start time of cases with no scheduled time|DMP-2822|800698|Done|DMP-8|
+Backend |Task|Change addCase to only create a Case and not a Hearing|DMP-2869|802102|Test Review|DMP-8|
+Backend |Bug|DailyLists: A Zulu dateTime stamp in the message is being incorrectly converted to UTC before storage in the database|DMP-2826|801304|Done|DMP-521|
+Frontend|Task|"Site-wide Accessibility - ""HMCTS DARTS"" banner at the of the page are two separate links next to each other leading to the same location. "|DMP-2720|798499|Done|DMP-14|
+Frontend|Task|Site-wide Accessibility -  Multiple H1 Headings on a page.|DMP-2722|798801|Done|DMP-14|
+Backend |Task|Inbound to unstructured improvements|DMP-1919|769710|Test Review|DMP-17|
+Backend |Spike|Investigate removal of event.event_name|DMP-791|733439|Done|DMP-7|
+Backend |Task|Align RetrieveCoreObjectServiceImpl case number case-sensitivity|DMP-2743|799568|QA Testing|DMP-7|
+Backend |Task|gateway - remove security header from Dar Pc Notification|DMP-2902|802913|Done|DMP-7|
+Backend |Task|(Dev only) Escape fields in XMLEventDocument for DAR Notify request message |DMP-2948|804384|Done|DMP-7|
+Backend |Task|(Dev only) Gateway logs a success for a DAR Notify error|DMP-2949|804387|Done|DMP-7|
+Backend |Task|gateway - addLogEntry returns 201 instead of 200|DMP-2980|805865|Done|DMP-7|
+Backend |Task|hearings failing to be created due to unique constraint hea_cas_ctr_hd_unq|DMP-2981|805866|Done|DMP-7|
+Backend |Task|gateway - DarPC rejecting notify request|DMP-2988|806319|Done|DMP-7|
+Backend |Task|(Dev Only) Upgrade Spring framework dependencies with CVEs|DMP-2774|800271|Done|DMP-2755|
+Frontend|Task|(Dev only) Upgrade node.js dependencies to resolve CVEs|DMP-2776|800276|Done|DMP-2755|
+Backend |Story|Write to log automated task statuses|DMP-2574|791834|Done|DMP-20|
+Backend |Bug|Dynatrace panel should only show the number of handheld audio uploads today.|DMP-2993|806359|Done|DMP-20|
+Backend |Task|(Dev only) AC3 of DMP-2574 can be done via integration test|DMP-3005|806571|Review|DMP-20|
+Backend |Story|Handle retention for cases closed by the automated task - Close unclosed cases|DMP-2205|779320|Ready for Test|DMP-16|
+Backend |Task|Store retention details for sentencing events in case_management_retention table|DMP-2748|799342|Ready for Test|DMP-16|
+Backend |Task|Return full transcription urgency object|DMP-2133|776495|QA Testing|DMP-33|
+Frontend|Task|"Use new ""transcription_urgency"" field on DARTS portal"|DMP-2134|776496|QA Testing|DMP-33|
+Backend |Task|"(Dev only) Remove unused ""urgency"" field from transcription endpoint responses"|DMP-2135|776497|Done|DMP-33|
+Backend |Task|(Dev only) Populate new columns introduced in v65 of data model|DMP-2696|796943|Done|DMP-33|
+Backend |Spike|Pod recycle - Stops automated jobs|DMP-2765|800217|In Progress|DMP-33|
+Backend |Task|v68 and v69 of data model|DMP-2831|801354|Review|DMP-33|
+Backend |Task|(Dev Only) Fix flaky CaseRepositoryIntTest test|DMP-2942|804346|Done|DMP-33|
