@@ -21,8 +21,8 @@ const COL_INDEX = {
 const EPIC_MAP = {
   'DMP-629': 'Admin portal',
   'DMP-603': 'Admin portal',
-  'DMP-606': 'Admin Portal',
-  'DMP-608': 'Admin Portal',
+  'DMP-606': 'Admin portal',
+  'DMP-608': 'Admin portal',
   'DMP-9': 'Audio API and Service',
   'DMP-12': 'Audio Transformation Service',
   'DMP-21': 'Case audit service',
