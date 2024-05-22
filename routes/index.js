@@ -3,10 +3,10 @@ const router = express.Router();
 const fs = require('fs');
 const Papa = require('papaparse');
 
-const SPRINT_NUMBER = '22';
+const SPRINT_NUMBER = '28';
 const TEAM = 'Bullseye';
 const SPRINT = `Sprint ${SPRINT_NUMBER}`;
-const DATES = '14th Feb 2024 to 28th Feb 2024';
+const DATES = '8th May 2024 to 22nd May 2024';
 
 const COL_INDEX = {
   COMPONENT: 0,
@@ -19,9 +19,13 @@ const COL_INDEX = {
 };
 
 const EPIC_MAP = {
-  'DMP-629': 'Admin portal',
-  'DMP-603': 'Admin portal',
-  'DMP-606': 'Admin Portal',
+  'DMP-15': 'Admin scheduled jobs',
+  'DMP-629': 'Admin portal user management',
+  'DMP-603': 'Admin portal courthouse management',
+  'DMP-606': 'Admin portal setup',
+  'DMP-608': 'Admin portal workflow management',
+  'DMP-1716': 'Admin portal events management',
+  'DMP-1977': 'Admin portal Audio Transformation Management',
   'DMP-9': 'Audio API and Service',
   'DMP-12': 'Audio Transformation Service',
   'DMP-21': 'Case audit service',
@@ -41,7 +45,8 @@ const EPIC_MAP = {
   'DMP-11': 'Authentication - External Users',
   'DMP-441': 'Authorisation Service',
   'DMP-18': 'Archival service',
-  'DMP-19': 'Token service'
+  'DMP-19': 'Token service',
+  'DMP-2755': 'ITHC remediation',
 };
 
 router.get('/', function(_, res) {
