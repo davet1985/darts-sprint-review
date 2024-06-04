@@ -1,0 +1,39 @@
+Component/s|Component/s|Issue Type|Summary|Issue key|Issue id|Status|Custom field (Epic Link)|Custom field (Epic Name)
+Frontend|Story|View the Event mapping table|DMP-754|732197|Awaiting Fix|DMP-1716|
+Frontend|Story|Add event mapping|DMP-2746|799638|Review|DMP-1716|
+Backend |Task|Implement GET /admin/event-handlers|DMP-2816|800685|Done|DMP-1716|
+Backend |Task|Implement GET /admin/event-mappings|DMP-2817|800686|Done|DMP-1716|
+Backend |Task|Implement POST /admin/event-mappings|DMP-2818|800687|Done|DMP-1716|
+Backend |Task|Implement GET /admin/event-mappings/<id>|DMP-2819|800688|Done|DMP-1716|
+Backend |Task|Implement DELETE /admin/event-mappings/<id>|DMP-2820|800689|Done|DMP-1716|
+Frontend|Story|(Dev only) View the Event mapping table|DMP-3037|807656|Done|DMP-1716|
+Backend |Task|(Dev Only) Remove in-memory caching from EventDispatcherImpl|DMP-3056|808102|Done|DMP-1716|
+Backend |Task|Modify POST /admin/event-mappings to handle edits|DMP-3098|809573|Done|DMP-1716|
+Backend |Task|Implement has_events value in GET /admin/event-mappings/<id>|DMP-3114|810225|Done|DMP-1716|
+Frontend|Task|Update navigation bar on admin portal|DMP-2987|806050|Done|DMP-606|
+Backend |Task|Implement GET /admin/media-requests/{id}|DMP-2880|802160|In Progress|DMP-1977|
+Frontend|Task|Remove Audio files option from navigation tabs under Users|DMP-2992|806352|Done|DMP-629|
+Backend |Task|"(Dev only) Update GET /transcriptions/{id} to remove ""from"""|DMP-2744|799595|Done|DMP-608|
+Frontend|Story|Automated tasks - primary page|DMP-2668|795720|Done|DMP-15|
+Frontend|Story|Automated tasks - details page|DMP-2669|795721|Sign off|DMP-15|
+Backend |Task|Implement POST /admin/automated-tasks/<id>/run|DMP-2811|800669|Done|DMP-15|
+Backend |Task|Implement PATCH /admin/automated-tasks/<id>|DMP-2813|800671|Done|DMP-15|
+Frontend|Bug|"Clicking on ""Run Task"" button for any automated task from the DEMO Admin Portal, it displays error message and does not run the task.  "|DMP-3079|809142|QA Testing|DMP-15|
+Frontend|Bug|"Automated tasks - details page missing Blue active tag, Created by & Modified by "|DMP-3088|809462|Done|DMP-15|
+Backend |Task|AddAudio investigation - S28|DMP-3160|811565|In Progress|DMP-9|
+Backend |Story|Auditing for courthouse admin activities|DMP-2767|800243|Review|DMP-21|
+Frontend|Bug|"Staging, Demo and Test environment for the external login - Formatting issue"|DMP-3069|808906|Done|DMP-11|
+Backend |Task|Daily list duplicate checking logic|DMP-2962|805123|QA Testing|DMP-521|
+Backend |Task|Align RetrieveCoreObjectServiceImpl case number case-sensitivity|DMP-2743|799568|Done|DMP-7|
+Backend |Task|Handle only unique names in event/daily list processing|DMP-3008|806580|Review|DMP-7|
+Frontend|Task|Implement HSTS headers on DARTS portal|DMP-2783|800313|Sign off|DMP-2755|
+Frontend|Task|Fix cookie misconfiguration on DARTS portal|DMP-2784|800315|Done|DMP-2755|
+Backend |Task|(Dev only) AC3 of DMP-2574 can be done via integration test|DMP-3005|806571|Done|DMP-20|
+Backend |Story|Handle retention for cases closed by the automated task - Close unclosed cases|DMP-2205|779320|Done|DMP-16|
+Backend |Task|Store retention details for sentencing events in case_management_retention table|DMP-2748|799342|Sign off|DMP-16|
+Backend |Task|Return full transcription urgency object|DMP-2133|776495|Done|DMP-33|
+Frontend|Task|"Use new ""transcription_urgency"" field on DARTS portal"|DMP-2134|776496|Done|DMP-33|
+Backend |Task|(Dev only) Expose darts-stub-services on HTTP|DMP-2571|791824|Done|DMP-33|
+Backend |Spike|Pod recycle - Stops automated jobs|DMP-2765|800217|In Progress|DMP-33|
+Backend |Task|(Dev only)v68 and v69 of data model|DMP-2831|801354|Done|DMP-33|
+Backend |Task|(Dev only) Address PMD Renovate PMD version 6 to 7 upgrade|DMP-3077|809034|Done|DMP-33|
