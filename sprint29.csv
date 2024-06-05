@@ -1,5 +1,5 @@
 Component/s|Issue Type|Summary|Issue key|Issue id|Status|Custom field (Epic Link)|Custom field (Epic Name)
-Backend |Task|Implement GET /admin/medias to filter by transformed_media_id|DMP-2847|801396|QA Testing|DMP-607|
+Backend |Task|Implement GET /admin/medias to filter by transformed_media_id|DMP-2847|801396|Awaiting Fix|DMP-607|
 Frontend|Story|View the Event mapping table|DMP-754|732197|Sign off|DMP-1716|
 Frontend|Story|Add event mapping|DMP-2746|799638|Sign off|DMP-1716|
 Frontend|Story|Edit event mapping|DMP-2763|800018|QA Testing|DMP-1716|
@@ -7,7 +7,7 @@ Frontend|Story|Delete event mapping|DMP-2764|800022|Ready for Test|DMP-1716|
 Frontend|Story|Type and subtype already in use when adding an event mapping|DMP-3028|807323|Review|DMP-1716|
 Frontend|Bug|Admin > System configuration > Event mappings: Incorrect filter results|DMP-3154|811539|Done|DMP-1716|
 Backend |Task|Update Retention Error Status Codes|DMP-2887|802556|Blocked|DMP-2097|
-Frontend|Task|Update Admin Retention Error Handling for 409|DMP-2888|802579|In Progress|DMP-2097|
+Frontend|Task|Update Admin Retention Error Handling for 409|DMP-2888|802579|Review|DMP-2097|
 Backend |Task|Implement GET /admin/media-requests/{id}|DMP-2880|802160|Done|DMP-1977|
 Frontend|Task|Accessibility - Admin Portal - Courthouse details - Users tab (Viewing) - Two main landmarks|DMP-3136|810917|Done|DMP-629|
 Frontend|Task|Accessibility - Admin Portal - Courthouse details - Users tab (Viewing)- Skipped Heading Levels|DMP-3146|811234|Done|DMP-629|
