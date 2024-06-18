@@ -1,9 +1,9 @@
 Component/s|Issue Type|Summary|Issue key|Issue id|Status|Custom field (Epic Link)|Custom field (Epic Name)
 Backend |Task|Implement GET /admin/medias to filter by transformed_media_id|DMP-2847|801396|Awaiting Fix|DMP-607|
-Frontend|Story|View the Event mapping table|DMP-754|732197|Sign off|DMP-1716|
-Frontend|Story|Add event mapping|DMP-2746|799638|Sign off|DMP-1716|
+Frontend|Story|View the Event mapping table|DMP-754|732197|Done|DMP-1716|
+Frontend|Story|Add event mapping|DMP-2746|799638|Done|DMP-1716|
 Frontend|Story|Edit event mapping|DMP-2763|800018|QA Testing|DMP-1716|
-Frontend|Story|Delete event mapping|DMP-2764|800022|Ready for Test|DMP-1716|
+Frontend|Story|Delete event mapping|DMP-2764|800022|QA Testing|DMP-1716|
 Frontend|Story|Type and subtype already in use when adding an event mapping|DMP-3028|807323|Review|DMP-1716|
 Frontend|Bug|Admin > System configuration > Event mappings: Incorrect filter results|DMP-3154|811539|Done|DMP-1716|
 Backend |Task|Update Retention Error Status Codes|DMP-2887|802556|Blocked|DMP-2097|
@@ -18,14 +18,14 @@ Frontend|Task|Accessibility - Admin Portal - Transcription Request Details/Histo
 Frontend|Bug|"Clicking on ""Run Task"" button for any automated task from the DEMO Admin Portal, it displays error message and does not run the task.  "|DMP-3079|809142|Done|DMP-15|
 Frontend|Story|Error when trying to run a task that is already running|DMP-3095|809553|Done|DMP-15|
 Frontend|Task|Accessibility - Admin Portal - Automated Tasks - Task details - Empty Table Header|DMP-3150|811504|Done|DMP-15|
-Backend |Task|AddAudio investigation - S28/S29|DMP-3160|811565|In Progress|DMP-9|
+Backend |Task|AddAudio investigation - S28/S29|DMP-3160|811565|Done|DMP-9|
 Backend |Bug|POST /audios rejecting audio files with ViQ header|DMP-3208|812799|Done|DMP-9|
-Backend |Story|Auditing for user management activities|DMP-2593|792933|QA Testing|DMP-21|
+Backend |Story|Auditing for user management activities|DMP-2593|792933|Test Review|DMP-21|
 Backend |Story|Auditing for courthouse admin activities|DMP-2767|800243|Done|DMP-21|
 Backend |Story|Auditing for transcription workflow admin activities|DMP-2799|800785|In Progress|DMP-21|
 Backend |Task|Daily list duplicate checking logic|DMP-2962|805123|Sign off|DMP-521|
 Backend |Task|"Use Daily list ""TimeStamp"" to order multiple lists received for processing"|DMP-3086|809352|Done|DMP-521|
-Backend |Task|Send daily list data in request body|DMP-3209|812947|In Progress|DMP-521|
+Backend |Task|Send daily list data in request body|DMP-3209|812947|Ready for Test|DMP-521|
 Backend |Bug|Dailylist - cases with a Time Marking note after noon cause exceptions|DMP-3245|814934|Ready for Test|DMP-521|
 Backend |Task|(Dev Only) gateway - unable to handle darts-api 'problem' without 'type'|DMP-2973|805642|Done|DMP-7|
 Backend |Task|Handle only unique names in event/daily list processing|DMP-3008|806580|Sign off|DMP-7|
@@ -34,5 +34,5 @@ Backend |Bug|Faults in Soap Event message handling|DMP-3103|810010|Ready for Tes
 Backend |Task|Type 3 DAR PC notification on all event handlers|DMP-3161|811584|QA Testing|DMP-7|
 Backend |Bug|DMP-3060: Update handler event mappings: A few minor deltas spotted on Staging DB compared to those listed in the ticket|DMP-3219|814053|Done|DMP-7|
 Backend |Task|Store retention details for sentencing events in case_management_retention table|DMP-2748|799342|Done|DMP-16|
-Backend |Bug|Retention policy not getting sent from DARTS Gateway to API|DMP-3249|815183|In Progress|DMP-16|
+Backend |Bug|Retention policy not getting sent from DARTS Gateway to API|DMP-3249|815183|Ready for Test|DMP-16|
 Backend |Spike|Pod recycle - Stops automated jobs|DMP-2765|800217|Done|DMP-33|
