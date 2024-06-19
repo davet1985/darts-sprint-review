@@ -3,10 +3,10 @@ const router = express.Router();
 const fs = require('fs');
 const Papa = require('papaparse');
 
-const SPRINT_NUMBER = '29';
+const SPRINT_NUMBER = '30';
 const TEAM = 'Bullseye';
 const SPRINT = `Sprint ${SPRINT_NUMBER}`;
-const DATES = '22nd May 2024 to 5th June 2024';
+const DATES = '5th June 2024 to 19th June 2024';
 
 const COL_INDEX = {
   COMPONENT: 0,
@@ -49,6 +49,7 @@ const EPIC_MAP = {
   'DMP-18': 'Archival service',
   'DMP-19': 'Token service',
   'DMP-2755': 'ITHC remediation',
+  'DMP-23': 'Performance test'
 };
 
 router.get('/', function(_, res) {

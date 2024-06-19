@@ -1,0 +1,45 @@
+Component/s|Component/s|Issue Type|Summary|Issue key|Issue id|Status|Custom field (Epic Link)|Custom field (Epic Name)
+Frontend|Story|Deletion Reasons|DMP-1662|761762|In Progress|DMP-607|
+Backend |Task|Implement GET /admin/medias to filter by transformed_media_id|DMP-2847|801396|Done|DMP-607|
+Backend |Task|Update GET /admin/medias to filter by start/end time and hearing ids|DMP-2896|802831|In Progress|DMP-607|
+Backend |Task|Implement GET /admin/hidden-reasons|DMP-2899|802835|Done|DMP-607|
+Backend |Task|Implement GET /admin/medias/<id>|DMP-3169|811884|Done|DMP-607|
+Frontend|Story|Manual Check for Associated Files Prompt|DMP-3170|811885|In Progress|DMP-607|
+Backend |Task|(Dev only) Populate object_hidden_reason table|DMP-3241|814695|Done|DMP-607|
+Backend |Bug|GET /admin/medias - Three issues|DMP-3254|815405|Done|DMP-607|
+Backend |Task|Populate courtroom and courthouse created and updated fields|DMP-2800|800796|QA Testing|DMP-603|
+Frontend|Story|Edit event mapping|DMP-2763|800018|Done|DMP-1716|
+Frontend|Story|Delete event mapping|DMP-2764|800022|Done|DMP-1716|
+Frontend|Story|Type and subtype already in use when adding an event mapping|DMP-3028|807323|Done|DMP-1716|
+Frontend|Bug|"Admin Portal -  Event Mapping  - When changing an event mapping, if the event mapping was created without a subtype, the changes cannot be saved."|DMP-3269|816166|Done|DMP-1716|
+Backend |Task|Update Retention Error Status Codes|DMP-2887|802556|Done|DMP-2097|
+Frontend|Task|Update Admin Retention Error Handling for 409|DMP-2888|802579|Done|DMP-2097|
+Backend |Task|Update GET /admin/transcription-documents/<id>|DMP-3171|812010|Sign off|DMP-608|
+Frontend|Story|Update Transcription File Details Page|DMP-3247|814962|Review|DMP-608|
+Backend |Task|Enhance GET /transcriptions/<id> to include courtroom and transcription_object_id|DMP-3297|817328|QA Testing|DMP-608|
+Frontend|Task|(Dev only) Audio File/Transcript Doc - Refactor to shared code|DMP-3319|817957|PO Review|DMP-608|
+Backend |Task|"ViqTestHarness - add ability to call AddLogEntry, AddCase etc"|DMP-3180|811984|Done|DMP-9|
+Backend |Task|gateway - getCases response scheduled_start does not match legacy|DMP-3217|813806|Done|DMP-9|
+Backend |Task|rebuild Demo VM Test Harness|DMP-3278|816533|Done|DMP-9|
+Backend |Bug|media start_ts and end_ts are saving in wrong time|DMP-3310|817709|Ready for Test|DMP-9|
+Backend |Bug|AddAudio failing due to hearing_media_ae_pk violation|DMP-3318|817777|Ready for Test|DMP-9|
+Backend |Story|Auditing for user management activities|DMP-2593|792933|Done|DMP-21|
+Backend |Story|Auditing for transcription workflow admin activities|DMP-2799|800785|QA Testing|DMP-21|
+Backend |Story|Auditing for retention policy admin activities|DMP-2808|800923|Review|DMP-21|
+Backend |Story|Auditing for event mapping admin activities|DMP-2828|801261|Review|DMP-21|
+Backend |Story|Auditing for automated job admin activities|DMP-2858|801665|Review|DMP-21|
+Frontend|Bug|if there are multiple courtrooms used for a case then it should say 'multiple' for the courtroom column in the case search result page. |DMP-3263|815681|Ready for Test|DMP-8|
+Backend |Task|Daily list duplicate checking logic|DMP-2962|805123|Done|DMP-521|
+Backend |Task|Do not re-open closed cases|DMP-3131|810641|Done|DMP-521|
+Backend |Task|Send daily list data in request body|DMP-3209|812947|QA Testing|DMP-521|
+Backend |Bug|Dailylist - cases with a Time Marking note after noon cause exceptions|DMP-3245|814934|Done|DMP-521|
+Backend |Bug|Daily list mapper using incorrect date to set hearing|DMP-3321|818045|Done|DMP-521|
+Frontend|Task|Site-wide Accessibility - Check boxes are not labelled correctly.|DMP-2791|800733|Done|DMP-14|
+Frontend|Task|Site-wide Accessibility - Table header cells should not be blank. |DMP-2794|800767|Sign off|DMP-14|
+Frontend|Story|Globally correct the email address for contacting support on portal and on notify templates|DMP-3035|807642|QA Testing|DMP-14|
+Backend |Task|Implement event_linked_case after v69 database changes|DMP-3054|807742|In Progress|DMP-7|
+Backend |Bug|Faults in Soap Event message handling|DMP-3103|810010|Done|DMP-7|
+Backend |Task|Type 3 DAR PC notification on all event handlers|DMP-3161|811584|QA Testing|DMP-7|
+Backend |Task|Performance Testing - API - GET/cases/case_Id - 504 Gateway errors displayed when using the Api|DMP-3192|812445|In Progress|DMP-23|
+Backend |Bug|Retention policy not getting sent from DARTS Gateway to API|DMP-3249|815183|Done|DMP-16|
+Backend |Task|Investigate issues with darts-api build|DMP-3279|816535|Done|DMP-33|
