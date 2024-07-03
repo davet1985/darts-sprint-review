@@ -3,10 +3,10 @@ const router = express.Router();
 const fs = require('fs');
 const Papa = require('papaparse');
 
-const SPRINT_NUMBER = '30';
+const SPRINT_NUMBER = '31';
 const TEAM = 'Bullseye';
 const SPRINT = `Sprint ${SPRINT_NUMBER}`;
-const DATES = '5th June 2024 to 19th June 2024';
+const DATES = '19th June 2024 to 3rd July 2024';
 
 const COL_INDEX = {
   COMPONENT: 0,
