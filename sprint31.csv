@@ -8,7 +8,7 @@ Backend |Task|Implement POST /admin/events/search|DMP-3174|812029|In Progress|DM
 Backend |Task|Implement POST /admin/hearings/search|DMP-3175|812030|Review|DMP-607|
 Backend |Task|Populate courtroom and courthouse created and updated fields|DMP-2800|800796|Done|DMP-603|
 Frontend|Story|"Add a link to ""user portal"" link to each admin portal screen"|DMP-3234|814575|Done|DMP-606|
-Frontend|Story|Error screen for Reactivating user on admin portal|DMP-3232|814539|Ready for Test|DMP-629|
+Frontend|Story|Error screen for Reactivating user on admin portal|DMP-3232|814539|QA Testing|DMP-629|
 Frontend|Task|Incorrect Label Associations and ARIA Label Deficiencies - Transcripts - Advanced search - Admin portal|DMP-2965|805080|In Progress|DMP-608|
 Frontend|Task|Insufficient Context in ARIA Labels for Date Input Fields - Transcripts - Advanced search - Admin portal|DMP-2966|805090|Ready for Test|DMP-608|
 Frontend|Task|Radio Buttons with Multiple Form Labels in 'Request Method' Section - Transcripts - Advanced search - Admin portal|DMP-2967|805094|Ready for Test|DMP-608|
@@ -17,7 +17,7 @@ Frontend|Story|Update Transcription File Details Page|DMP-3247|814962|QA Testing
 Backend |Task|Enhance GET /transcriptions/<id> to include courtroom and transcription_object_id|DMP-3297|817328|Done|DMP-608|
 Frontend|Task|(Dev only) Audio File/Transcript Doc - Refactor to shared code|DMP-3319|817957|Done|DMP-608|
 Backend |Task|(Dev Only) Rename endpoint /admin/transcription-document/{transcription_document_id}/hide|DMP-3346|819085|Done|DMP-608|
-Frontend|Task|Accessibility - Admin Portal - Hide or delete file - Reasons radio buttons are missing labels|DMP-3369|820686|Test Review|DMP-608|
+Frontend|Task|Accessibility - Admin Portal - Hide or delete file - Reasons radio buttons are missing labels|DMP-3369|820686|Done|DMP-608|
 Frontend|Bug|Courthouse selector not showing courthouses|DMP-3370|820943|QA Testing|DMP-608|
 Backend |Bug|media start_ts and end_ts are saving in wrong time|DMP-3310|817709|Ready for Test|DMP-9|
 Backend |Bug|AddAudio failing due to hearing_media_ae_pk violation|DMP-3318|817777|Done|DMP-9|
@@ -29,11 +29,11 @@ Frontend|Bug|if there are multiple courtrooms used for a case then it should say
 Backend |Task|Send daily list data in request body|DMP-3209|812947|Done|DMP-521|
 Frontend|Task|Site-wide-Accessibility-Skipped heading levels.|DMP-2796|800771|QA Testing|DMP-14|
 Frontend|Task|Site-wide Accessibility - Adoption of Relative Font Sizing for Enhanced Accessibility and Scalability  Description:|DMP-2797|800773|QA Testing|DMP-14|
-Frontend|Task|Site-wide Accessibility - Magnification makes the text appear distorted/pixelated|DMP-2850|801547|Blocked|DMP-14|
+Frontend|Task|Site-wide Accessibility - Magnification makes the text appear distorted/pixelated|DMP-2850|801547|Done|DMP-14|
 Frontend|Story|Globally correct the email address for contacting support on portal and on notify templates|DMP-3035|807642|Done|DMP-14|
 Frontend|Story|"Add a link to ""Admin portal"" to each DARTS portal screen"|DMP-3235|814578|Done|DMP-14|
 Frontend|Task|"Place a ""-"" for prosecutor/defence when no data is available in DARTS"|DMP-3304|817470|QA Testing|DMP-14|
-Frontend|Bug|Cases with multiple hearings not sorted by date order|DMP-3456|822361|Ready for Test|DMP-14|
+Frontend|Bug|Cases with multiple hearings not sorted by date order|DMP-3456|822361|QA Testing|DMP-14|
 Backend |Task|Implement event_linked_case after v69 database changes|DMP-3054|807742|Review|DMP-7|
 Backend |Task|Type 3 DAR PC notification on all event handlers|DMP-3161|811584|Done|DMP-7|
 Backend |Bug|Stop and close event not persisted when DAR notification fails|DMP-3354|819751|Ready for Test|DMP-7|
